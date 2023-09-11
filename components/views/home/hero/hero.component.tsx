@@ -16,7 +16,7 @@ const HeroComponent = () => {
             <div className="lg:w-[722px]">
               <p
                 className="font-manrope not-italic lg:font-medium leading-4 sm:leading-8 text-xs font-semibold sm:text-2xl lg:w-[500px] xl:w-[570px] 
-                lg:pt-24 xl:pt-8 lg:pl-48 xl:pl-64"
+                pt-4 lg:pt-24 xl:pt-8 lg:pl-48 xl:pl-64"
                 data-aos="fade-right"
               >
                 En Juroc protegemos tu vida y tus propiedades.
@@ -30,7 +30,7 @@ const HeroComponent = () => {
             </div>
 
             <button
-              className="lg:ml-20 xl:ml-[6px] lg:mt-[41px] sm:mt-4 rounded-md bg-[#495098] w-auto h-10  sm:h-16 sm:w-auto px-2 
+              className="lg:ml-[-130px] xl:ml-[6px] lg:mt-[41px] sm:mt-6 rounded-md bg-[#495098] w-auto h-10  sm:h-16 sm:w-auto px-2 
               overflow-hidden font-PlayfairDisplay font-bold not-italic text-base sm:text-2xl sm:font-bold 
               shadow-[0px_4px_20px_0px_#47AF83] hover:scale-125 transform transition"
             >

@@ -1,3 +1,4 @@
+import Blog from './blog/blog.component'
 import Experiences from './experiences/experiences.component'
 import HeroComponent from './hero/hero.component'
 import OurClientsComponent from './ourclients/ourclients.component'
@@ -12,6 +13,7 @@ const Home = () =>{
       <Experiences/>
       <Testimonials/>
       <ServiceAndProducts/>
+      <Blog/>
     </div>
   )
 }
