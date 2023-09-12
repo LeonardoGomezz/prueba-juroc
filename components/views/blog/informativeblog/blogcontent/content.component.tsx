@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
-import { BlogContent } from "../../../../../DataInfo/data.component";
+import { useEffect, useState } from "react"
+import { useRouter } from "next/router"
+import { BlogContent } from "../../../../../DataInfo/data.component"
 
 const ContentBlog = () => {
   const { query, asPath } = useRouter()
@@ -128,6 +128,6 @@ const ContentBlog = () => {
         </div>
       </div>
     </>
-  );
-};
-export default ContentBlog;
+  )
+}
+export default ContentBlog

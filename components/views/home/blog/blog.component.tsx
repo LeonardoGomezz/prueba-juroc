@@ -44,8 +44,7 @@ const Blog = () => {
                 <div className="flex flex-col gap-6 pr-7">
                   <div className="">
                     <h2
-                      className="font-PlayfairDisplay text-center sm:text-start not-italic text-base sm:text-4xl font-semibold sm:font-bold leading-4 sm:leading-10
-         "
+                      className="font-PlayfairDisplay text-center sm:text-start not-italic text-base sm:text-4xl font-semibold sm:font-bold leading-4 sm:leading-10"
                     >
                       {content.tarjetTitle}
                     </h2>
@@ -57,7 +56,7 @@ const Blog = () => {
                   </div>
                   <div className="w-6/12">
                     <p className="font-manrope not-italic sm:font-bold sm:leading-7 text-xs sm:text-base hover:underline cursor-pointer">
-                      <a title="entradas-blog" href="#">
+                      <a title="entradas-blog" href={content.url}>
                         Leer más ➜
                       </a>
                     </p>
@@ -70,7 +69,7 @@ const Blog = () => {
 
         <div className="flex items-center gap-x-2 mb-4">
           <AiOutlineDoubleLeft />
-          <Link href="#" title="entradas-blog">
+          <Link href="/blogpostpage" title="entradas-blog">
             <p className="font-manrope underline sm:no-underline not-italic text-xs sm:text-base font-bold leading-normal sm:leading-7 cursor-pointer">
               Ver entradas más antiguas
             </p>
