@@ -7,7 +7,7 @@ export const BlogTarjets = [
       img: '/home/blog/blog1.webp',
       alt:'tarjeta-blog1',
       title:'descripcion del blog 1',
-      url: '/blog/1',
+      url: '/blogcontentpage/1',
       urlTitle:'blog 1'
     }
   },
@@ -20,7 +20,7 @@ export const BlogTarjets = [
       img: '/home/blog/blog2.webp',
       alt:'tarjeta-blog2',
       title:'descripcion del blog 2',
-      url:'/blog/2',
+      url:'/blogcontentpage/2',
       urlTitle:'blog 2'
     }
   }
@@ -92,5 +92,341 @@ export const BlogContent = [
       atl6: 'imagen-6',
       title6: 'imagen 6'
     }
+  }
+]
+
+export const ServicesTarjets = [
+  {
+    categorie: 'ingenieria',
+    content: [
+      {
+        tarjetTitle:'Ofrecemos una variedad de productos certificados en la Línea industrial',
+        text:'En Juroc contamos con un personal profesional capacitado enfocado en el diseño e instalación de todo tipo de redes contra incendios y su mantenimiento preventivo trimestral, semestral o anual.',
+        img:'/servicios/ingenieria/Agentes-Limpios.webp',
+        alt:'tarjeta-ingenieria',
+        title:'tarjeta ingenieria'
+      }
+    ]
+  }
+]
+
+export const EngineeringProducts = [
+  {
+    id:'ingenieria',
+    title: 'ingenieria',
+    content: [
+      {
+        name:'Redes contra incendios',
+        img: '/servicios/ingenieria/Redes-Contra-Incendios.webp',
+        alt:'redes-contra-incendios',
+        title: 'redes contra incendios',
+        description: 'Diseño e instalacion'  
+      },
+       {
+         name:'Bombas contra incendios',
+         img: '/servicios/ingenieria/Agentes-Limpios.webp',
+         alt:'bombas-contra-incendios',
+         title: 'bombas contra incendios',
+         description: 'Bombas orizontales y verticales'  
+       },
+       {
+         name:'Tuberias ranuradas',
+         img: '/servicios/ingenieria/Tuberias-Ranuradas.webp',
+         alt:'bombas-contra-incendios',
+         title: 'bombas contra incendios',
+         description: 'Esenciales para la union de tuberías y válvulas'  
+       },
+       {
+         name:'Accesorios Splinkers',
+         img: '/servicios/ingenieria/Accesorios-Splinkers.webp',
+         alt:'accesorios-splinkers',
+         title: 'accesorios splinkers',
+         description: 'Sistema de rociadores automáticos'  
+       },
+       {
+         name:'Válvulas',
+         img: '/servicios/ingenieria/vavulas.webp',
+         alt:'valvulas',
+         title: 'accesorios splinkers',
+         description: 'Controlan el paso del fluido en los sistemas contra incendios'  
+       },
+       {
+         name:'Gabinetes contra incendios',
+         img: '/servicios/ingenieria/Gabinete.webp',
+         alt:'Gabinetes',
+         title: 'gabinetes contra incendios',
+         description: 'Elementos básicos para reacción a las fases iniciales de un incendio'  
+       },
+       {
+         name:'Mangueras',
+         img: '/servicios/ingenieria/Mangueras.webp',
+         alt:'mangueras',
+         title: 'mangueras',
+         description: 'Transporte de agua para la extinción de incendios'  
+       }
+    ]
+  }
+]
+
+export const ProductsTarjets = [
+  {
+    categorie: 'industrial',
+    content: {
+      
+      tarjetTitle:'Ofrecemos una variedad de productos certificados en la Línea industrial',
+      text:'Nuestros productos de Línea Industrial están diseñados para brindarte protección y confianza en entornos desafiantes. Por ley, es indispensable contar con estos equipos y productos en cualquier lugar de trabajo. En Juroc nos aseguramos que tu entorno industrial este equipado con las mas efectivas seguridad contra incendios.',
+      img:'/productos/industrial/Tarjeta-Industrial.webp',
+      alt:'tarjeta-industrial',
+      title:'tarjeta de presentacion categoria industrial'
+      
+    }
+  },
+  {
+    categorie: 'bomberil',
+    content: 
+      {
+        tarjetTitle:'Ofrecemos una variedad de productos certificados en la Línea bomberil',
+        text:'En nuestro catálogo de equipos y herramientas para la lucha contra incendios, encontrarás una gama diversa de productos diseñados para enfrentar situaciones desafiantes y garantizar la seguridad de los profesionales en el campo. Desde boquillas con pistola hasta sistemas de espumas, nuestros productos están respaldados por la calidad y el rendimiento que necesitas.',
+        img:'/productos/bomberil/Tarjeta-Bomberil.webp',
+        alt:'tarjeta-bomberil',
+        title:'tarjeta de presentacion categoria bomberil'
+      }
+    
+  }
+]
+
+export const industrailProducts = [
+  {
+    title: 'industrial',
+    content: [
+      {
+        name:'Extintores',
+        img: '/productos/industrial/Group 105.webp',
+        alt:'extintores',
+        title: 'extiontores',
+        description: 'Apagar fuegos o incendios de pequeña magnitud'
+      },
+      {
+        name:'Sistemas FM',
+        img: '/productos/industrial/sistemasFM.webp',
+        alt:'sistemas-FM',
+        title: 'sistemas-FM',
+        description: 'Ofrecen protección contra incendios de manera rápida'
+      },
+      {
+        name:'Espumas AFF',
+        img: '/productos/industrial/EspumasAFF.webp',
+        alt:'espumas-AFF',
+        title: 'espumas-AFF',
+        description: 'Agentes para extinguir incendios de líquidos inflamables'
+      },
+      {
+        name:'Monitores contra incendios',
+        img: '/productos/industrial/Monitores-contra-incendios.webp',
+        alt:'monitores-contra-incendios',
+        title: 'monitores contra incendios',
+        description: 'Suministrar grandes caudales de forma segura y precisa'
+      },
+      {
+        name:'Trajes para brigadistas',
+        img: '/productos/industrial/Traje-Brigadista.webp',
+        alt:'trajes-brigadistas',
+        title: 'trajes para brigadistas',
+        description: 'Diseñado para proteger a las brigadas de emergencia '
+      },
+      {
+        name:'Estructurales tipo bombero',
+        img: '/productos/industrial/Estructurales-tipo-bombero.webp',
+        alt:'estructurales-tipo-bombero',
+        title: 'estructurales tipo bombero',
+        description: 'Te defiende del contacto con materiales químicos o radiactivos'
+      },
+      {
+        name:'Equipo de respiracion autonoma',
+        img: '/productos/industrial/Equipo-de-respiracion-autonoma.webp',
+        alt:'equipo-respiracion',
+        title: 'equipo de respiracion autonoma',
+        description: 'Trabajo en atmósferas con niveles reducidos de oxígeno y gases'
+      },
+      {
+        name:'Trajes para salpicadura',
+        img: '/productos/industrial/Trajes-Salpicaduras.webp',
+        alt:'Trajes-salpicaduras',
+        title: 'Trajes para salpicaduras',
+        description: 'Protege frente agresiones térmicas (calor y/o fuego)'
+      },
+      {
+        name:'Mangueras industriales',
+        img: '/productos/industrial/Mangueras-Industriales.webp',
+        alt:'Mangueras-industriales',
+        title: 'Mangueras industriales',
+        description: 'Transporte de agua para la extinción de incendios'
+      },
+      {
+        name:'Camillas',
+        img: '/productos/industrial/Camillas.webp',
+        alt:'camillas',
+        title: 'camillas',
+        description: 'Sistema de transporte, traslado y evacuación de personas heridas'
+      },
+      {
+        name:'Equipos de seguridad industrial',
+        img: '/productos/industrial/Equipos-Seguridad-Industrial.webp',
+        alt:'equipos-seguridad-industrial',
+        title: 'equipos de seguridad industrial',
+        description: 'Botas, cascos, tapa oídos, gafas de protección'
+      },
+      {
+        name:'Mangaveletas con mastil',
+        img: '/productos/industrial/Mangaveletas.webp',
+        alt:'Mangaveletas-con-mastil',
+        title: 'mangaveletas con mastil',
+        description: 'Permiten determinar la intensidad y dirección del viento'
+      },
+      {
+        name:'Duchas mixtas lavaojos',
+        img: '/productos/industrial/Duchas-Mixtas.webp',
+        alt:'duchas-mixtas',
+        title: 'duchas mixtas lavaojos',
+        description: 'Descontaminante eficaz cualquier posible infección o contaminación'
+      },
+      {
+        name:'Hidrantes',
+        img: '/productos/industrial/Hidrantes.webp',
+        alt:'hidrantes',
+        title: 'hidrantes',
+        description: 'Abastecimiento de agua en caso de incendio'
+      }
+       
+        
+    ]
+  }
+]
+
+export const bomberilProducts = [
+  {
+    title: 'bomberil',
+    content: [
+      {
+        name:'boquillas con pistola',
+        img: '/productos/bomberil/boquilla-con-pistola.webp',
+        alt:'boquillas',
+        title: 'boquillas',
+        description: 'Proporcionar o dosificar el agua que sale a través de la manguera'
+      },
+      {
+        name:'Manguera industrial sintetica',
+        img: '/productos/bomberil/Manguera-Sintetica.webp',
+        alt:'manguera-sintetica',
+        title: 'manguera industrial sintetica',
+        description: 'Su aplicación principal es para combatir incendios industriales'
+      },
+      {
+        name:'LLave spanner',
+        img: '/productos/bomberil/LLave-Spanner.webp',
+        alt:'llave-spanner',
+        title: 'llave spanner',
+        description: 'Diseñada para el manejo de acoples de manguera'
+      },
+      {
+        name:'Bifurcacion de 2.1/2',
+        img: '/productos/bomberil/Bifurcacion.webp',
+        alt:'bifurcacion-2.1/2',
+        title: 'bifurcacion de 2.1/2',
+        description: ' Conexión de mangueras contra incendio'
+      },
+      {
+        name:'Eductores de espuma',
+        img: '/productos/bomberil/Eductor-Espuma.webp',
+        alt:'eductores-espuma',
+        title: 'eductores de espuma',
+        description: 'Dosificador de espuma portátil en vehículos de bomberos'
+      },
+      {
+        name:'Traje de bombero aluminizado',
+        img: '/productos/bomberil/Traje-Aluminizado.webp',
+        alt:'traje-aluminizado',
+        title: 'traje de bombero aluminizado',
+        description: 'Protección de altas temperaturas en la proximidad de incendio'
+      },
+      {
+        name:'Detector multigas',
+        img: '/productos/bomberil/Detector-Multigas.webp',
+        alt:'detector-multigas',
+        title: 'detector multigas',
+        description: 'Detecta a tiempo los gases combustibles e inflamables'
+      },
+      {
+        name:'Equipo de respiracion autonoma',
+        img: '/productos/bomberil/Equipo-de-respiracion-autonoma.webp',
+        alt:'equipo-respiracion-autonoma',
+        title: 'equipo de respiracion autonoma',
+        description: 'Trabajo en atmósferas con niveles reducidos de oxígeno y gases'
+      },
+      {
+        name:'Equipos de seguridad bomberil',
+        img: '/productos/bomberil/Equipo-Seguridad-Bomberil.webp',
+        alt:'equipo-seguridad-bomberil',
+        title: 'equipos de seguridad bomberil',
+        description: 'Botas, trajes, guantes, casco tipo bombero'
+      },
+      {
+        name:'Monja en nomex',
+        img: '/productos/bomberil/Monja-Nomex.webp',
+        alt:'monja-nomex',
+        title: 'monja en nomex',
+        description: 'Alta protección en entornos con riesgos térmicos'
+      },
+      {
+        name:'Bolsa de espalda de 5 galones para agua',
+        img: '/productos/bomberil/Bolsa-Espalda.webp',
+        alt:'bolsa-de-espalda-para-agua',
+        title: 'bolsa de espalda para agua',
+        description: 'Perfecto para incendios forestales, arbustos y basura.'
+      },
+      {
+        name:'Casco para forestal, bate de fuego',
+        img: '/productos/bomberil/Casco-Forestal.webp',
+        alt:'casco-forestal',
+        title: 'casco para forestal bate de fuego',
+        description: 'Protección contra el fuego, salpicaduras de metales fundidos'
+      },
+      {
+        name:'Mangueras sencillas y doble chaqueta',
+        img: '/productos/bomberil/Manguera-Doble-Sencilla.webp',
+        alt:'manguera-sencilla-doble-chaqueta',
+        title: 'manguras sencillas y doble chaqueta',
+        description: 'Combate incendios industrialeso para brigadas'
+      },
+      {
+        name:'Hacha y pico',
+        img: '/productos/bomberil/Hacha.webp',
+        alt:'hacha',
+        title: 'hacha y pico',
+        description: 'Sistema de transporte, traslado y evacuación de personas heridas'
+      },
+      {
+        name:'Manta antifuego',
+        img: '/productos/bomberil/Manta-Anti-Fuego.webp',
+        alt:'manta-antifuego',
+        title: 'manta antifuego',
+        description: 'Combatir conatos de incendio y  quemaduras en  evacuaciones'
+      },
+      {
+        name:'Linea de extraccion vehicular',
+        img: '/productos/bomberil/Linea-Extraccion.webp',
+        alt:'linea-extraccion-vehicular',
+        title: 'linea de extraccion vehicular',
+        description: 'Remoción de pacientes atrapados en un vehículo o maquinaria'
+      },
+      {
+        name:'Sistema de espumas',
+        img: '/productos/bomberil/Sistema-Espumas.webp',
+        alt:'sistema-de-espumas',
+        title: 'sistema de espumas',
+        description: 'Proyectan una capa de espuma obtenida del agua y espumógeno'
+      }
+        
+    ]
   }
 ]
